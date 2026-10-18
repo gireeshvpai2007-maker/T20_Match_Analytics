@@ -1,0 +1,56 @@
+$date
+	Sun Oct 18 21:16:30 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module over_rate_subtractor_tb $end
+$var wire 6 ! overs_remaining [5:0] $end
+$var wire 1 " over_rate_violation $end
+$var reg 6 # allowed_overs [5:0] $end
+$var reg 6 $ completed_overs [5:0] $end
+$var reg 6 % total_overs [5:0] $end
+$scope module dut $end
+$var wire 6 & allowed_overs [5:0] $end
+$var wire 6 ' completed_overs [5:0] $end
+$var wire 6 ( total_overs [5:0] $end
+$var reg 1 " over_rate_violation $end
+$var reg 6 ) overs_remaining [5:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1010 )
+b10100 (
+b1010 '
+b10010 &
+b10100 %
+b1010 $
+b10010 #
+0"
+b1010 !
+$end
+#10000
+b10 !
+b10 )
+b10010 $
+b10010 '
+#20000
+1"
+b1 !
+b1 )
+b10011 $
+b10011 '
+#30000
+b0 !
+b0 )
+b10100 $
+b10100 '
+#40000

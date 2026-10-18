@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
-
-module over_rate_subtractor_tb;
+`include "over_rate_subtractor.v"
+module over_rate_subtractor_tb();
 reg [5:0] total_overs;
 reg [5:0] completed_overs;
 reg [5:0] allowed_overs;
