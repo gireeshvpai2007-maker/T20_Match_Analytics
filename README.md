@@ -235,7 +235,7 @@ T20_Match_Analytics/
 └── t20_match_analytics.digitaljs
 ```
 
-*This tree summarizes the files visible during development. Check the actual repository for any additional files or naming differences.*
+
 
 ## 📄 Submission Report
 
@@ -250,12 +250,12 @@ This project was developed collaboratively as part of a digital systems design p
 | Team Member | Contribution |
 |---|---|
 | Gireesh V. Pai | Target Comparator and system integration |
-| [Member 2 Name] | [Actual contribution] |
-| [Member 3 Name] | [Actual contribution] |
-| [Member 4 Name] | [Actual contribution] |
-| [Member 5 Name] | [Actual contribution] |
+| Rithesh Taparia | Display Multiplexer |
+| Megha S | Score Aggregator |
+| Vamika Khemka | Penalty Trigger Logic |
+| Navika Kapur | Over Rate Subtractor |
 
-*Replace the placeholders with the correct names and contributions before submission.*
+
 
 ## 📚 Learning Outcomes
 
