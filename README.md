@@ -113,9 +113,22 @@ DigitalJS circuit files and circuit images are included in the repository to hel
 
 ### Integrated Circuit
 
-If the root-level `circuit.png` represents the complete system, it can be displayed here:
+The following image shows the integrated T20 Match Analytics circuit generated for the project.
 
 ![Integrated T20 Match Analytics Circuit](circuit.png)
+
+### Demo: Circuit, Simulation, and Waveforms
+
+The repository includes both the integrated circuit visualization and simulation artifacts so the design can be inspected beyond the source code.
+
+- **Integrated circuit:** [View the circuit image](circuit.png)
+- **DigitalJS design:** [Open `t20_match_analytics.digitaljs`](t20_match_analytics.digitaljs)
+- **Integrated waveform:** [View `t20_match_analytics_tb.vcd`](t20_match_analytics_tb.vcd)
+- **Submission presentation:** [View `Submission_Report.pptx`](Submission_Report.pptx)
+
+To reproduce the demo locally, compile the top-level design with its testbench and all five component modules using the command in [Integrated System Testing](#integrated-system-testing), then run `vvp integrated_tb.vvp`. Open the generated or included VCD waveform in GTKWave to inspect signal changes over simulation time.
+
+> The README embeds the circuit image. The `.digitaljs`, `.vcd`, and `.pptx` files are linked as project artifacts; GitHub does not render all of these file types inline.
 
 ### Individual Module Circuits
 
