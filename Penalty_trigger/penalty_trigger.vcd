@@ -1,0 +1,51 @@
+$date
+	Sun Oct 18 21:35:46 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module penalty_trigger_tb $end
+$var wire 2 ! penalty_code [1:0] $end
+$var wire 1 " penalty $end
+$var reg 1 # over_rate_violation $end
+$var reg 1 $ target_reached $end
+$var reg 4 % wickets [3:0] $end
+$scope module dut $end
+$var wire 1 # over_rate_violation $end
+$var wire 1 $ target_reached $end
+$var wire 4 & wickets [3:0] $end
+$var reg 1 " penalty $end
+$var reg 2 ' penalty_code [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 '
+b10 &
+b10 %
+0$
+0#
+0"
+b0 !
+$end
+#10000
+1#
+#20000
+b1 !
+b1 '
+1"
+1$
+#30000
+b0 !
+b0 '
+0"
+b100 %
+b100 &
+#40000

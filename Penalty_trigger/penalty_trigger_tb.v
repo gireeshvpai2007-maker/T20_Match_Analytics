@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
-
-module penalty_trigger_tb;
+`include "penalty_trigger.v"
+module penalty_trigger_tb();
 reg over_rate_violation;
 reg target_reached;
 reg [3:0] wickets;
