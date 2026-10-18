@@ -1,6 +1,6 @@
 
 
-module person3_target_comparator(
+module target_comparator(
     input [7:0] current_score,
     input [7:0] target_score,
     output target_reached,

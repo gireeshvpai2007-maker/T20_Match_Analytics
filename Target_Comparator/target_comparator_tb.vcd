@@ -1,5 +1,5 @@
 $date
-	Sat Oct 17 10:42:15 2026
+	Sun Oct 18 20:58:25 2026
 $end
 $version
 	Icarus Verilog
@@ -7,7 +7,7 @@ $end
 $timescale
 	1ns
 $end
-$scope module person3_target_comparator_tb $end
+$scope module target_comparator_tb $end
 $var wire 1 ! target_reached $end
 $var wire 8 " runs_required [7:0] $end
 $var wire 1 # Z $end
