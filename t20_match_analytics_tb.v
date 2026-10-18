@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module t20_match_analytics_tb;
+module t20_match_analytics_tb();
     reg clk, reset, wicket;
     reg [3:0] runs_scored;
     reg [5:0] total_overs, completed_overs, allowed_overs;
