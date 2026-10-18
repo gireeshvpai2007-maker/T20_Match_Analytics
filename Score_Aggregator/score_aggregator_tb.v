@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
-
-module score_aggregator_tb;
+`include "score_aggregator.v"
+module score_aggregator_tb();
 reg clk, reset, wicket;
 reg [3:0] runs_scored;
 wire [15:0] total_score;
